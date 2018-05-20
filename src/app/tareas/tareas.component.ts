@@ -3,9 +3,11 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'kc-tareas',
   template: `
-    <p>
-      tareas works!
-    </p>
+    <div class="row">
+      <p class="col">
+        tareas works!
+      </p>
+    </div>
   `,
   styles: []
 })

@@ -3,9 +3,11 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'kc-libros',
   template: `
-    <p>
-      libros works!
-    </p>
+    <div class="row">
+      <p class="col">
+        libros works!
+      </p>
+    </div>
   `,
   styles: []
 })
